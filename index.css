@@ -1,0 +1,94 @@
+
+
+body {
+    margin: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1a2342;
+    height: 385px;
+}
+
+h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+ 
+.homebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorebox{
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    color: red;
+    font-size: 6rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    border-radius: 10px;
+} 
+
+.guestbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    width: 155px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.buttons button:hover{
+    color: #1a2342;
+    background: #b5c7f2;
+}
+
+.buttons button {
+    background: none;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 10px;
+    
+}
+
+.highlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efb810;
+    height:90%;
+    width: 30%;
+}
+
+.tie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:gray;
+    height:90%;
+    width: 30%;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
